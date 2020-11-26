@@ -1,25 +1,18 @@
 package com.epam.array.reader;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class SingleArrayReader {
-    private static final Logger logger = LogManager.getLogger();
-
-    public int[] readArrayFromFile(String path) {
+    public int[] readArrayFromFile(String path) throws IOException {
         StringBuilder sb = new StringBuilder();
         try (FileReader fr = new FileReader(path); BufferedReader br = new BufferedReader(fr)) {
             String str;
             while ((str = br.readLine()) != null) {
                 sb.append(str).append("\n");
             }
-        } catch (IOException e) {
-            logger.error(e);
         }
         String regex = "\\D+";
         String[] numbers = sb.toString().split(regex);
