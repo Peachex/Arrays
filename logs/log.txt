@@ -1,0 +1,12 @@
+26-11-2020 14:26:06 (1223ms) reportArray INFO  report.ArrayReport - Array: 1  2  3  56  1234  984  2  3  2  31  78  90  123  234  0
+26-11-2020 14:26:06 (1229ms) reportArray INFO  report.ArrayReport - Sorted array: 0  1  2  2  2  3  3  31  56  78  90  123  234  984  1234
+26-11-2020 14:26:06 (1231ms) reportBinarySearchResult INFO  report.ArrayReport - 10 - wasn't found in the array (0  1  2  2  2  3  3  31  56  78  90  123  234  984  1234)
+26-11-2020 14:26:06 (1232ms) reportElement INFO  report.ArrayReport - Max element = 1234 (0  1  2  2  2  3  3  31  56  78  90  123  234  984  1234)
+26-11-2020 14:26:06 (1232ms) reportElement INFO  report.ArrayReport - Min element = 0 (0  1  2  2  2  3  3  31  56  78  90  123  234  984  1234)
+26-11-2020 14:26:06 (1234ms) reportArray INFO  report.ArrayReport - Simple numbers: 1  2  2  2  3  3  31
+26-11-2020 14:26:06 (1235ms) reportArray INFO  report.ArrayReport - Fibonacci numbers: 1  2  2  2  3  3  0
+26-11-2020 14:26:06 (1235ms) reportArray INFO  report.ArrayReport - Numbers with different digits: 123  234  984
+26-11-2020 14:26:06 (1236ms) reportArray INFO  report.ArrayReport - Jagged array: {1  2  3  }  {5  4  3  2  0  }  {10  20  30  40  50  60  70  }  {90  }  
+26-11-2020 14:26:06 (1237ms) reportArray INFO  report.ArrayReport - Sorted by rows sum: {10  20  30  40  50  60  70  }  {90  }  {5  4  3  2  0  }  {1  2  3  }  
+26-11-2020 14:26:06 (1237ms) reportArray INFO  report.ArrayReport - Sorted by rows' max element: {90  }  {10  20  30  40  50  60  70  }  {5  4  3  2  0  }  {1  2  3  }  
+26-11-2020 14:26:06 (1237ms) reportArray INFO  report.ArrayReport - Sorted by rows' min element: {90  }  {10  20  30  40  50  60  70  }  {1  2  3  }  {5  4  3  2  0  }  
